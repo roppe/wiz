@@ -3300,11 +3300,7 @@
 
     @media (max-width: 991px) {
 
-      #our-services {
-      padding-top: 30px;
-      padding-bottom: 60px;
-      background-color: #c8c7ef;
-      }
+    
 
       .carousel-caption{
       top: 12%;
@@ -3427,13 +3423,7 @@
 
     @media (max-width: 767.98px) {
         
-    #our-services {
-    padding-top: 30px;
-    padding-bottom: 60px;
-    background-color: #ded8d8;
-    }
-       
-
+  
 
 	}   /* /End responsive Tablet size */
 
@@ -3446,13 +3436,7 @@
 	@media (max-width: 575.98px) { 
 	   	
 
-        #our-services {
-        padding-top: 30px;
-        padding-bottom: 60px;
-        background-color: #e6b8b8;
-        }
-
-
+     
        
         .main-navigation .nav-list .nav-link{
             margin-top: 5px;
