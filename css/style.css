@@ -14,7 +14,7 @@
 	.navbar-toggler .navbar-toggler-icon .fa{
     font-size: 30px;
    	display: block !important;
-    color: #ce2027!important;
+    color: #7ed957!important;
     border:0;
     }
 
@@ -3299,8 +3299,305 @@
 	
 
     @media (max-width: 991px) {
+        
+        #main-header-gallery .main-left .tx-inner h2 {
+    font-size: 26px;
+      }
 
-    
+      #main-header-gallery .main-left .tx-inner p{
+        font-size: 15px;
+      }
+
+     #main-header-gallery  .main-img-top img{
+        display: block;
+        padding-top: 15%;
+      }
+       
+
+        .portfolio-box .portfolio-name {
+        font-size: 17px;
+        background-color: transparent;
+        text-align:center;
+        }
+
+        .customer-section .text-box-cust h2 {
+        font-size: 28px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        text-align: center;
+        color: #4e4e4e;
+        font-family: 'Archivo Narrow', sans-serif;
+        letter-spacing: 2px;
+        }
+        .customer-section .impression-1 h6{
+            font-size: 15px;
+        }
+
+        .customer-section .impression-1 {
+        background-color: #ffffff;
+        border-radius: 10px;
+        border: 1px solid #efeeee;
+        width: 97%;
+        position: relative;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 45px;
+        background: #fff url(../img/quote.png) no-repeat right;
+        margin-bottom: 15px;
+        margin-top: 25px;
+        height: auto;
+        }
+   
+        #our-services .box-text {
+        margin-bottom: 20px;
+        }
+
+        #our-services .btn-go-services{
+            margin-top: 20px;
+        }
+
+        .hm-about-side .text-inner h2{
+            font-size: 32px;
+        }
+
+        .about-right-side img{
+            padding-top: 15%;
+        }
+
+        .hm-about-side .text-inner p{
+            font-size: 15px;
+        }
+
+        #section-how-it-work .box-text-5 h2{
+            font-size: 30px;
+        }
+
+        #section-how-it-work .box-text-5 h4 {
+            font-size: 20px;
+        }
+
+        #our-services .box-text h4 {
+        font-size: 22px;
+        font-weight: 300;
+        margin-bottom: 5px;
+        text-align: center;
+        color: #4e4e4e;
+        font-family: 'Archivo Narrow', sans-serif;
+        }
+
+        #our-services .inner-items {
+        padding-top: 15px;
+        padding-right:0px;
+        padding-left: 0px;
+        margin-bottom:0px;
+        }
+
+        #our-services .inner-items img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        }
+
+        #our-services .inner-items h5 {
+        font-weight: 500;
+        text-align: center;
+        color: #4e4e4e;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 22px;
+        margin-top: 15px;
+        }
+
+        #our-services .inner-items .line-div {
+        display: block;
+        border: 2px solid #7ed957;
+        width: 30px;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        #our-services .inner-items p {
+        font-weight: 400;
+        text-align: center;
+        color: #4e4e4e;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 14px;
+        padding-right: 15px;
+        }
+
+
+       .pic-left img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width:  100%;
+        }
+
+        .banner-call-1 .box-content-bnr .ph-1 {
+        font-weight: 700;
+        color: #f7f5f5;
+        font-size: 20px;
+        text-decoration: none;
+        font-family: 'Archivo Narrow', sans-serif;
+        letter-spacing: 2px;
+        border: 3px solid #fafafa;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        }
+
+        .banner-call-1 .box-content-bnr .ph-2 {
+        font-weight: 700;
+        color: #f7f5f5;
+        font-size: 20px;
+        text-decoration: none;
+        font-family: 'Archivo Narrow', sans-serif;
+        letter-spacing: 2px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border: 3px solid #fafafa;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        }
+   
+
+        #main-header-service .main-left .tx-inner h2{
+            font-size: 26px;
+        }
+
+        #main-header-service .main-left .tx-inner p{
+            font-size: 15px;
+        }
+
+        #main-header-service .main-img-top img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 15%;
+        }
+
+        .list-repairs-link h5{
+            font-size: 11px;
+        }
+
+        .right-gallery .open-gallery{
+            bottom: 185px;
+        }
+
+        .first-service-1 .text-box h2{
+            font-size: 28px;
+        }
+
+
+        #contact-section {
+        padding-bottom: 26px;
+        padding-top: 30px;
+        }
+
+        .box-contact .icons-contact {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 32%;
+        }
+
+        .box-contact .skew-txt-bck a{
+        font-size: 18px;
+        word-wrap: break-word;
+        }
+
+        .box-contact .skew-txt-bck h3{
+        font-size: 16px;
+        word-wrap: break-word;
+        }
+
+        #contact-section .btn-go-now{
+        margin-top: 20px;
+        }
+
+
+
+       #main-header-client .main-left .tx-inner h2{
+        font-size: 27px;
+        }
+
+        #main-header-client .main-left .tx-inner  p{
+        font-size: 15px;
+        }
+
+        #main-header-client .main-img-top img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 15%;
+        }
+
+
+
+        #main-header-contact .main-left .tx-inner h2{
+        font-size: 27px;
+        }
+
+        #main-header-contact .main-left .tx-inner p{
+        font-size: 15px;
+        }
+
+        #main-header-contact .main-img-top .img-fluid{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 15%;
+        }
+
+        #get-quote-section .quote-text-top h2{
+        font-size: 27px;
+        }
+
+        .bottom-info .info-text-btm h6{
+        font-size: 19px;
+        }
+
+        .bottom-info .info-text-btm h2{
+        font-size: 31px;
+        }
+
+        .contact-list-text li{
+            width: 46%;
+            border: none;
+            background-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .adress-nav li a{
+            font-size: 12px;
+        }
+
+        .contact-list-text li a{
+            font-size: 18px;
+            text-align: center;
+            float: none;
+              display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        .contact-list-text li a .fa {
+        font-size: 30px;
+        margin-right: 10px;
+        color: #7ed957;
+        vertical-align: -2px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
 
       .carousel-caption{
       top: 12%;
@@ -3308,7 +3605,7 @@
       }
 
       .carousel-caption h2{
-      font-size: 30px;
+      font-size: 24px;
       }
 
       .carousel-caption p{
@@ -3422,8 +3719,175 @@
 	
 
     @media (max-width: 767.98px) {
-        
+
+    #main-header-gallery .main-img-top img {
+    display: block;
+    padding-top: 1%;
+    }
+
+    .carousel-caption h2 {
+    font-size: 18px;
+     }
+
+    .carousel-caption p {
+    font-size: 15px;
+    margin-top: 5px;
+    }
+
+    .carousel-caption .btn-action-go {
+   
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
   
+    }
+
+    #tabs-gallery .gallery-item{
+        font-size: 10px;
+    }
+
+    .hm-about-side .text-inner .btn-go-about {
+    display: inline-block;
+    width: 160px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #228de8;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid #228de8;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    position: relative;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    margin-right: auto;margin-left: auto;
+    display: block;
+    }
+
+    .hm-about-side .text-inner .btn-go-about span{
+        font-size: 15px;
+    }
+
+    .about-right-side img {
+    padding-top:0;
+    display: block;
+    margin-left: auto;margin-right: auto;
+    }
+
+    #main-header-service .main-img-top img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    }
+
+    #main-header-service .main-left .tx-inner h2{
+        font-size: 24px;
+    }
+
+    .right-gallery .open-gallery {
+    bottom: 10px;
+    }
+
+    .list-repairs-link h5{
+    font-size: 10px;
+    }
+
+    .list-repairs-link {
+    margin-bottom: 0;
+    background-color: #fafafa;
+    max-width: 12.6%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: px;
+    border: 1px solid #dedbdb;
+    /* background: url(../img/blue-lines.png); */
+    /* background-repeat: no-repeat; */
+    transition: all .2s ease-in-out;
+    }
+
+    #main-header-client .main-img-top img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    }
+
+    #contact-section .cnt-text .cnt-subtitle{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .box-contact .skew-txt-bck a {
+    font-size: 17px;
+    word-wrap: break-word;
+    }
+
+    .review-section .impression-user img{
+        left:36%;
+    }
+
+    #main-header-contact .main-img-top .img-fluid{
+    padding-top: 3%;
+    }
+
+    .contact-list-text{
+    margin-top: 20px;
+    }
+
+    .contact-list-text li {
+    width: 45%;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    }
+
+    .contact-list-text li a {
+    font-size: 18px;
+    text-align: center;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    }
+
+    footer .logo-left li a img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-left li .copy{
+        text-align: center;
+    }
+
+    .adress-nav{
+        float: none;
+    }
+
+    .adress-nav li a{
+    text-align: center !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .adress-nav li p{
+      text-align: center !important;
+    display: block;
+    margin-left:30%;
+
+    }
+
+
+
 
 	}   /* /End responsive Tablet size */
 
@@ -3436,7 +3900,231 @@
 	@media (max-width: 575.98px) { 
 	   	
 
-     
+        .list-repairs-link img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 32px;
+        height: 32px;
+        }
+
+        .carousel-caption {
+        top: 2%;
+        left: 2%;
+        }
+
+        .carousel-caption h2 {
+        font-size: 14px;
+        }
+
+        .carousel-caption p {
+        font-size: 12px;
+        margin-top: 5px;
+        }
+
+        .carousel-caption .btn-action-go {
+        font-size: 10px;
+        margin-top: 3%;
+        }
+
+        #our-services .box-text p {
+        font-size: 14px;
+        }
+
+        #our-services .box-text h2 {
+        font-size: 25px;
+        }
+
+        #our-services .inner-items p {
+        font-weight: 400;
+        text-align: center;
+        color: #4e4e4e;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 13px;
+        padding-right: 15px;
+        }
+
+        #our-services .inner-items h5 {
+        font-weight: 500;
+        text-align: center;
+        color: #4e4e4e;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 19px;
+        margin-top: 15px;
+        }
+
+        .side-work .headline-app {
+        font-size: 15px;
+        }
+        .inner-how-it-work-1 .first-side-work img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition: all .2s ease-in-out;
+        width: 42%;
+        }
+
+        #our-portfolio .btn-go-gallery{
+            margin-top: 15px;
+        }
+
+        .customer-section .impression-1 img {
+        position: absolute;
+        left: 34%;
+        bottom: -10px;
+        }
+
+        .portfolio-box .portfolio-name{
+            text-align: center;
+            font-size: 17px;
+        }
+
+
+
+        .banner-call-1 .box-content-bnr .ph-1 {
+        font-weight: 700;
+        color: #f7f5f5;
+        font-size: 23px;
+        text-decoration: none;
+        font-family: 'Archivo Narrow', sans-serif;
+        letter-spacing: 2px;
+        border: 3px solid #fafafa;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        }
+
+        .banner-call-1 .box-content-bnr span {
+        color: #fafafa;
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: none;
+        }
+
+        .banner-call-1 .box-content-bnr h3 {
+        font-size: 25px;
+        text-align: center;
+        }
+
+        .list-repairs-link {
+        margin-bottom: 0;
+        background-color: #fafafa;
+        max-width: 19.6%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+        padding-bottom: px;
+        border: 1px solid #dedbdb;
+        /* background: url(../img/blue-lines.png); */
+        /* background-repeat: no-repeat; */
+        transition: all .2s ease-in-out;
+        }
+
+            .list-repairs-link h5 {
+            font-size: 9px;
+            }
+
+        
+        .banner-call-1 .box-content-bnr .ph-2 {
+        font-weight: 700;
+        color: #f7f5f5;
+        font-size: 23px;
+        text-decoration: none;
+        font-family: 'Archivo Narrow', sans-serif;
+        letter-spacing: 2px;
+        border: 3px solid #fafafa;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        }
+
+    #comapany-service .first-service-1 p{
+        font-size: 14px;
+    }
+
+    .first-service-1 .text-box h6{
+        font-size: 18px;
+    }
+
+        .review-section .text-box-cust h4{
+            font-size: 19px;
+        }
+
+        .first-service-1 .text-box h2{
+            font-size: 24px;
+        }
+
+        .review-section .text-box-cust h2{
+            font-size: 27px;
+        }
+
+        .review-section .impression-user h6{
+            font-size: 14px;
+        }
+
+        .first-service-1 .go-about span{
+            font-size: 16px;
+        }
+
+        .review-section .impression-user .name-cst{
+            font-size: 16px;
+        }
+
+        .box-contact .icons-contact {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 17%;
+        }
+
+        .box-contact .skew-txt-bck a {
+        font-size: 20px;
+        word-wrap: break-word;
+        }
+
+        
+
+        .contact-us .contact-form {
+        font-size: 15px;
+        color: #728292;
+        background: #fafafa;
+        border: 1px solid #ccc;
+        border-radius: 0;
+        font-family: 'Archivo Narrow', sans-serif;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 20px;
+        }
+
+        #get-quote-section .quote-text-top h2{
+            font-size: 25px;
+        }
+
+        .bottom-info .info-text-btm h6{
+            font-size: 17px;
+        }
+
+        .contact-list-text li a{
+            font-size: 16px;
+        }
+
+        .bottom-info .info-text-btm h2{
+            font-size: 28px;
+        }
        
         .main-navigation .nav-list .nav-link{
             margin-top: 5px;
@@ -3503,6 +4191,22 @@
 
         .top-header .right-button .phone-info{
             margin-left: 0;
+        }
+
+        #main-header-gallery .main-left .tx-inner h2 {
+        font-size: 27px;
+        font-weight: 500;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Archivo Narrow', sans-serif;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        }
+
+        #main-header-gallery .main-left .tx-inner p {
+    font-size: 14px;
         }
 
 
