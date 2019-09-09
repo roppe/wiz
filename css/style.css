@@ -269,7 +269,7 @@
     font-weight: 400;
     color: #131f28;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 21px;
     margin-top: 20px;
     margin-bottom: 10px;
     }
@@ -314,7 +314,7 @@
     }
 
     #our-services .box-text{
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
 
@@ -341,7 +341,7 @@
     font-size: 36px;
     font-weight: 400;
     margin-top:5px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     text-align:center;
      color: #4e4e4e;
     font-family: 'Archivo Narrow', sans-serif;
@@ -349,7 +349,7 @@
     }
 
      #our-services .box-text p{
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     text-align: center;
      color: #4e4e4e;
@@ -368,7 +368,7 @@
     border: 2px solid #7ed957;
     border-radius:0;
     letter-spacing: 1px;
-    margin-top: 55px;
+    margin-top: 30px;
     position: relative;
     white-space: normal !important;
     word-wrap: break-word !important; 
@@ -475,7 +475,7 @@
     }
 
     .hm-about-side .text-inner p{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     text-align: left;
     color: #ffffff;
@@ -537,7 +537,9 @@
     font-size: 27px;
     text-align:center;
     padding-bottom:0;
+    letter-spacing: 2px;
     margin-top:30px;
+    text-transform: uppercase;
 
     }
 
@@ -545,7 +547,7 @@
     font-family: 'Archivo Narrow', sans-serif;
     font-weight: 400;
     color:#f7f5f5;
-    font-size: 20px;
+    font-size: 21px;
     text-align:center;
     margin-bottom:35px;
     margin-top:5px;
@@ -727,7 +729,7 @@
     font-size: 36px;
     font-weight: 400;
     margin-top:5px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     text-align:center;
     color: #4e4e4e;
     font-family: 'Archivo Narrow', sans-serif;
@@ -751,7 +753,7 @@
     font-family: 'Archivo Narrow', sans-serif;
     font-weight: 700;
     color: #131f28 !important;
-    font-size:17px;
+    font-size:18px;
     text-align: center;
     margin-top: 20px;
     margin-bottom:10px;
@@ -807,7 +809,7 @@
     font-family: 'Archivo Narrow', sans-serif;
     font-weight: 400;
     color: #131f28;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     margin-bottom: 0;
     }
@@ -1537,7 +1539,7 @@
 
     #main-header-service .main-left{
     background-color: #7ed957;
-    padding-bottom: 1%;padding-top: 2%;
+    padding-bottom: 2%;padding-top: 5%;
     padding-left: 4%;
     padding-right: 3%;
     }
@@ -1566,7 +1568,7 @@
     font-size: 34px;
     font-weight: 500;
     margin-top: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     text-align: center;
     color: #ffffff;
     font-family: 'Archivo Narrow', sans-serif;
@@ -1576,8 +1578,8 @@
     }
 
     #main-header-service .main-left .tx-inner p{
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
     text-align: left;
     color: #ffffff;
     font-family: 'Archivo Narrow', sans-serif;
@@ -1667,12 +1669,23 @@
     font-weight: 400;
     color: #3a3a38;
     text-align: left;
-    font-size: 15px;
+    font-size: 17px;
     margin-top: 20px;
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
      }
+
+    .first-service-1 .list-text-1{
+        padding-left: 60px;
+    }
+
+    .first-service-1 .list-text-1 li{
+    font-weight: 400;
+    color: #3a3a38;
+    font-size: 18px;
+       font-family: 'Archivo Narrow', sans-serif;
+    }
 
 
     .first-service-1 .go-about{
@@ -1704,7 +1717,7 @@
     padding-right: 0;
     position: relative;
     padding-bottom: 10px;
-    padding-top: 40px;
+    padding-top:25px;
     }
 
     #comapany-service .right-gallery .serv-img{
@@ -1802,7 +1815,7 @@
 
     #main-header-gallery .main-left{
     background-color: #7ed957;
-    padding-bottom: 1%;padding-top: 2%;
+    padding-bottom: 2%;padding-top: 5%;
     padding-left: 4%;
     padding-right: 3%;
     }
@@ -1841,8 +1854,8 @@
     }
 
      #main-header-gallery .main-left .tx-inner p{
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
     text-align: left;
     color: #ffffff;
     font-family: 'Archivo Narrow', sans-serif;
