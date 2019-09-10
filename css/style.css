@@ -3384,7 +3384,7 @@
         }
 
         #section-how-it-work .box-text-5 h2{
-            font-size: 30px;
+            font-size: 26px;
         }
 
         #section-how-it-work .box-text-5 h4 {
@@ -3921,8 +3921,12 @@
         height: 32px;
         }
 
+        .list-repairs-link{
+            display: none;
+        }
+
         .carousel-caption {
-        top: 2%;
+        top: 5px;
         left: 2%;
         }
 
@@ -3931,13 +3935,15 @@
         }
 
         .carousel-caption p {
-        font-size: 12px;
-        margin-top: 5px;
+        font-size: 10px;
+        margin-top: 3px;
         }
 
         .carousel-caption .btn-action-go {
-        font-size: 10px;
+        font-size: 9px;
         margin-top: 3%;
+        padding-left: 10px;padding-right: 10px;
+        padding-top: 4px;padding-bottom:4px;
         }
 
         #our-services .box-text p {
@@ -3945,7 +3951,7 @@
         }
 
         #our-services .box-text h2 {
-        font-size: 25px;
+        font-size: 22px;
         }
 
         #our-services .inner-items p {
@@ -3953,7 +3959,7 @@
         text-align: center;
         color: #4e4e4e;
         font-family: 'Archivo Narrow', sans-serif;
-        font-size: 13px;
+        font-size: 12px;
         padding-right: 15px;
         }
 
@@ -3983,7 +3989,7 @@
 
         .customer-section .impression-1 img {
         position: absolute;
-        left: 34%;
+        left: 27%;
         bottom: -10px;
         }
 
@@ -4008,7 +4014,7 @@
         padding-bottom: 8px;
         margin-bottom: 15px;
         border-radius: 4px;
-        width: 100%;
+        width: 96%;
         display: block;
         text-align: center;
         }
@@ -4060,9 +4066,22 @@
         padding-bottom: 8px;
         margin-bottom: 15px;
         border-radius: 4px;
-        width: 100%;
+        width: 96%;
         display: block;
         text-align: center;
+        }
+
+        .first-service-1 .list-text-1 li{
+            font-size: 15px;
+        }
+
+        .first-service-1 .list-text-1{
+            padding-left: 35px;
+        }
+
+        #main-header-service .main-left .tx-inner h2{
+            font-size: 22px;
+            margin-bottom: 15px;
         }
 
     #comapany-service .first-service-1 p{
@@ -4094,7 +4113,17 @@
         }
 
         .review-section .impression-user .name-cst{
-            font-size: 16px;
+            font-size: 15px;
+            margin-top: 5px;
+        }
+
+        .review-section .impression-user .position{
+            font-size: 13px;
+        }
+
+        .review-section .impression-user img {
+        left: 32%;
+        width: 35%;
         }
 
         .box-contact .icons-contact {
@@ -4124,7 +4153,16 @@
         }
 
         #get-quote-section .quote-text-top h2{
-            font-size: 25px;
+            font-size: 19px;
+        }
+
+        .contact-us .title-headline-form-2{
+            font-size: 17px;
+            padding-left: 5px;
+        }
+
+        #get-quote-section .quote-text-top h6{
+            font-size: 20px;
         }
 
         .bottom-info .info-text-btm h6{
@@ -4133,6 +4171,10 @@
 
         .contact-list-text li a{
             font-size: 16px;
+        }
+
+        .contact-list-text{
+            padding-left: 0;
         }
 
         .bottom-info .info-text-btm h2{
@@ -4207,10 +4249,10 @@
         }
 
         #main-header-gallery .main-left .tx-inner h2 {
-        font-size: 27px;
+        font-size: 23px;
         font-weight: 500;
         margin-top: 5px;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
         text-align: center;
         color: #ffffff;
         font-family: 'Archivo Narrow', sans-serif;
@@ -4218,8 +4260,33 @@
         text-transform: uppercase;
         }
 
+        .banner-call-1 .box-content-bnr{
+            padding-right: 0;
+        }
+
+        #tabs-gallery .tab-pane .portfolio-name{
+            font-size: 22px;
+        }
+
         #main-header-gallery .main-left .tx-inner p {
     font-size: 14px;
+        }
+
+        .review-section .impression-user {
+        background-color: #ffffff;
+        border-radius: 0px;
+        border: 1px solid #efeeee;
+        width: 98%;
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: #fff url(../img/quote.png) no-repeat center;
+        margin-bottom: 15px;
+        margin-top: 25px;
+        height: 255px;
+        box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
         }
 
 
