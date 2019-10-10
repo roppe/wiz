@@ -3238,13 +3238,13 @@
     color: #686c6d;
     font-size: 16px;
     text-align: center;
-    padding-top:20px;
+    padding-top:15px;
     line-height: 20px;
 
     }
 
     .review-section .impression-user .name-cst{
-     font-family: 'Archivo Narrow', sans-serif;
+        font-family: 'Archivo Narrow', sans-serif;
     font-weight: 600;
     color: #7ed957;
     font-size: 18px;
@@ -3252,6 +3252,9 @@
     letter-spacing: 1px;
     margin-bottom: 5px;
     margin-top: 20px;
+    position: absolute;
+    bottom: 25px;
+    left: 45%;
     }
 
     .review-section .impression-user .position {
@@ -3275,9 +3278,10 @@
     }
 
     .review-section .impression-user img{
-    position: absolute;
-    left: 40%;
+   position: absolute;
+    left: 41%;
     bottom: -4%;
+    width: 24%;
     }
 
 
@@ -4113,7 +4117,7 @@
         }
 
         .review-section .impression-user .name-cst{
-            font-size: 15px;
+            font-size: 14px;
             margin-top: 5px;
         }
 
@@ -4122,7 +4126,7 @@
         }
 
         .review-section .impression-user img {
-        left: 32%;
+        left: 37%;
         width: 35%;
         }
 
@@ -4285,7 +4289,7 @@
         background: #fff url(../img/quote.png) no-repeat center;
         margin-bottom: 15px;
         margin-top: 25px;
-        height: 255px;
+        height: 280px;
         box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
         }
 
