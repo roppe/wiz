@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- SITE MAP GREEN LINE HOME REMODELING -->
+
+
+<url>
+  <loc>http://www.greenlinehomeremodeling.com/</loc>
+</url>
+
+<url>
+    <loc>http://www.greenlinehomeremodeling.com/index.html</loc>
+</url>
+
+<url>
+  <loc>http://www.greenlinehomeremodeling.com/services.html</loc>
+</url>
+
+<url>
+  <loc>http://www.greenlinehomeremodeling.com/gallery.html</loc> 
+</url>
+
+<url>
+  <loc>http://www.greenlinehomeremodeling.com/testimonials.html</loc> 
+</url>
+
+<url>
+  <loc>http://www.greenlinehomeremodeling.com/about.html</loc> 
+</url>
+
+
+
+
+</urlset>
