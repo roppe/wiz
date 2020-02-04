@@ -1,6 +1,6 @@
 <?php
 require_once "recaptchalib.php";
-$secret = "6LcUZ7EUAAAAANdb5ZwYL4wASJ5n1B2AxDLvOCdr";
+$secret = "#";
 $response = null;
 $reCaptcha = new ReCaptcha($secret);
 if ($_POST["g-recaptcha-response"]) {
@@ -16,7 +16,7 @@ if ($response != null && $response->success) {
 
 $EmailFrom = "feedback";
 $EmailTo = "PLACE EMAL";
-$Subject = "Lead From http://blueplanetexterminating.com";
+$Subject = "Lead From website adresss....";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $Email = Trim(stripslashes($_POST['Email'])); 
 $Phone = Trim(stripslashes($_POST['Phone'])); 
