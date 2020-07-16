@@ -419,7 +419,7 @@
     font-weight: 300;
     /*color: #f88936  !important;*/
     color: #f8791b;
-    font-size: 42px;
+    font-size: 36px;
     text-align: left;
     margin-top:5px;
     margin-bottom: 20px;
@@ -458,7 +458,7 @@
     .info-left-side h4 {
         color: #404b54;
         font-family: "Open Sans";
-        font-size: 18px;
+        font-size: 17px;
         margin-bottom: 10px;
         font-weight: 500;
     }
@@ -537,7 +537,7 @@
     font-family: 'Open Sans';
     font-weight: 00;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 10px;
     text-align: center;
      text-shadow: 0px 1px #000;
@@ -1168,7 +1168,7 @@
         background: #fff url(../img/quote.png) no-repeat top;
         margin-bottom: 15px;
         margin-top: 25px;
-        height: 255px;
+        height: 265px;
         box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
     
         }
@@ -1179,8 +1179,9 @@
         color: #292929;
         font-size: 14px;
         text-align: center;
-        padding-top:25px;
+        padding-top:5px;
         line-height: 20px;
+        margin-bottom: 10px;
     
         }
     
@@ -1438,7 +1439,7 @@
     font-family: "Roboto";
     font-weight: 500;
     color: #f8791b;
-    font-size: 37px;
+    font-size: 30px;
     text-align: center;
     margin-top: 0px;
     margin-bottom:20px;
