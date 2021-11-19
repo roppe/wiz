@@ -315,12 +315,58 @@
      border-radius: 30px;
      margin-top:70px;
     }
+   
+    .green {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #008c30;
+    }
 
-
-
-
-
+    .bug-list{
+        display:block;
+        width: 100%;
+        list-style: none;
+        margin-top:40px;
+        padding-left: 0;
+        margin-top: 0;
+    }
+ 
+     .bug-list li{
+     display: block;
+     float: left;
+    width: 15%;
+     
+    
+ 
+     }
+ 
+     .bug-list li:last-child{
+         margin-right: 0;
+     }
+ 
+     .bug-list li img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 45px;
+     }
+ 
+ 
+ 
+     .bug-list li p{
+     font-size: 13px;
+     font-family: "Roboto";
+     text-align: center;
+     color: #ffffff;
+     font-weight: 400;
+     line-height: 15px;
+     margin-top: 15px;
+     margin-bottom: 0;
   
+     }
+ 
+
+
 
 
     /* HOME PAGE LAYOUT */
@@ -328,12 +374,46 @@
     #info-description{
         padding-top: 50px;
         padding-bottom: 50px;
+        background-color: #009031;
     }
+
+    .dots{
+        color:#fff;
+        list-style-type:circle !important;
+        margin-top: 15px;
+        width: 100%;
+        display: block;
+        float: left;
+    
+        }
+    
+        .dots li{
+    
+        list-style: none;
+        margin-bottom:0;
+        width: 47%;
+        float: left;
+        display: block;
+    
+        }
+    
+        .dots li p{
+            font-family: "Roboto";
+        font-weight: 600;
+        color: #fff;
+        font-size: 17px;
+        margin-bottom: 5px;
+        }
+    
+        .dots li p .fa{
+            margin-right: 10px;
+        }
+        
 
     .info-left-side h2{
         font-family: "Roboto";
         font-weight: 600;
-        color: #1E1D24;
+        color: #fff;
         font-size: 32px;
         margin-bottom: 25px;
 
@@ -369,7 +449,7 @@
 
    
     .info-left-side h4 {
-        color: #1E1D24;
+        color: #fff;
         font-size: 17px;
         font-family: "Open Sans";
         margin-bottom: 20px;
@@ -430,7 +510,7 @@
     
     .banner-call{
     padding-top:40px;padding-bottom: 40px;
-    background-color:#e7f5f1aa;
+  
     border-radius: 20px;
     width: 100%;
     margin-bottom: 50px;
@@ -551,7 +631,7 @@
 
     #section-antislip{
     padding-top: 40px;
-    padding-bottom:70px;
+    padding-bottom:0;
     background-color:#f3f5f7;
     }
 
@@ -593,6 +673,40 @@
     .antislip-info{
     padding: 30px;
     }
+
+    .pest{
+        padding-left: 10px;
+        width: 100%;
+        display: block;
+        float: left;
+    }
+
+        .pest li{
+        display: block;
+        float: left;
+        width: 100%;
+        margin-bottom: 15px;
+        background-color: #f6f6f6;
+        border-radius: 20px;
+        }
+
+        .pest li p {
+        margin-bottom: 0;
+        font-family: "Roboto";
+        font-weight: 600;
+        color: #1E1D24;
+        font-size: 16px;
+        padding-top: 25px;
+        text-transform: uppercase;
+        }
+
+        .pest li img{
+        float: left;
+        display: block;
+        margin-right: 25px;
+        width: 100px;
+        height: 70px;
+        }
 
     .antislip-info h2{
     font-family: "Roboto";
@@ -763,6 +877,8 @@
     }
 
 
+        
+
 
 
 
@@ -780,7 +896,7 @@
 
 
 	  footer{
-        background:#10c659;
+        background:#009031;
         padding-top:45px;
         padding-bottom:0
     
@@ -952,7 +1068,7 @@
         display: block;
         width: 100%;
         padding-top:8px;padding-bottom:8px;
-        background-color:#10c659;
+        background-color:#009031;
         margin-top: 20px;
         }
     
@@ -1170,9 +1286,12 @@
 
 
     #contact-us-home{
-        padding-bottom: 7%;
-        padding-top: 3%;
+        padding-bottom: 40px;
+        padding-top: 40px;
         padding-left: 0;padding-right: 0;
+        background-image: url(../img/contact-banner.jpg);
+        background-size: cover;
+        background-repeat: n;
         
         }
     
@@ -1202,7 +1321,7 @@
         }
     
         .contact-box-home .contact-us-form h2{
-            font-size: 36px;
+            font-size: 30px;
         font-weight: 700;
         text-align: center;
         font-family: 'Open Sans', sans-serif;
@@ -1214,7 +1333,7 @@
         }
     
          .contact-box-home .contact-us-form h3{
-              font-size: 17px;
+              font-size: 16px;
         font-weight: 400;
         text-align:center;
         font-family: 'Open Sans', sans-serif;
