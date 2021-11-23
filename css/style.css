@@ -236,7 +236,7 @@
      /*contact us section*/
 
     #contact-section{
-    background-image: url(../img/cover-hero-new.jpg);
+    background-image: url(../img/pest-cover.jpg);
     position: relative;
     background-repeat: no-repeat;
     padding:120px 0 10px;
@@ -769,7 +769,7 @@
     }
 
     .get-contact {
-        background-color: #12de64;
+        background-color: #009031;
         padding-top: 16px;
         padding-bottom: 16px;
         font-size: 19px;
