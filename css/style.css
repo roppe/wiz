@@ -1,0 +1,2594 @@
+/*!
+ * 
+ * CUSTOM CSS STYLE FOR NY IPHONE REPAIR WEBSITE
+ * 
+ */
+
+
+/* Google Fonts - OPEN SANS */
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+
+    .navbar-toggler .navbar-toggler-icon .fa{
+    font-size: 30px;
+    display: block !important;
+    color: #d8b25b;
+    border:0;
+    }
+
+    .main-navigation .logo-header{
+    display: block;
+    float: left;
+    width: 380px !important;height:75px;
+    background:url(../img/limo-logo.png) 0 0 no-repeat;
+    margin-right: 0 !important;
+    margin-top: 10px;
+
+    }
+
+    .main-navigation{
+    background-color: #181F27;
+    display: block;
+    padding-left: 0;padding-right: 0;
+    padding-top: 0;
+   
+    }
+
+    .main-navigation .nav-list .nav-link{
+    font-family: "Roboto";
+    font-weight:600;
+    color: #fff;
+    text-transform:uppercase;
+    font-size: 13px;
+    letter-spacing: 1px !important;
+    margin-right:10px;
+    margin-top: 15px;
+    text-align: center;
+    }
+
+    .nav-list .nav-item .btn-nav-book{
+    background-color: #d8b25b;
+    padding-top: 8px;
+    padding-bottom:8px;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius:2px;
+    padding-left: 20px;padding-right: 20px;
+    }
+
+    .nav-list .nav-item .gt-quote{
+       background-color: #4638b3;
+        /*background-image: -webkit-linear-gradient(0deg, #251c6e 0%, #362a91 52%, #4638b3 100%);*/
+        padding-top: 8px;
+        padding-bottom:8px;
+        font-size: 16px;
+        color: #ffffff;
+        border-radius:2px;
+        padding-left: 20px;padding-right: 20px;
+        margin-right: 25px;
+        }
+
+        .nav-list .nav-item .gt-quote:hover{
+            background-color: #4638b3;
+            color: #fff !important;
+        }
+    
+
+    .nav-list .nav-item .btn-nav-book .fa{
+    margin-right: 7px;
+    font-size: 22px;
+    vertical-align: -3px;
+    }
+
+
+    .main-navigation .nav-list .nav-link:hover{
+    cursor: pointer;
+    color: #d8b25b;
+    }
+
+    .nav-list .nav-item .btn-nav-book:hover{
+    color: #fafafa !important;
+    background-color: #d8b25b;
+    }
+
+    .nav-list .dropdown{
+    font-family: "Roboto";
+    font-weight:600;
+    color: #313433;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-right:10px;
+    text-align: center;
+    position: relative;
+    margin-top: 18px;
+    }
+
+    .nav-list .dropdown a{
+    color: #313433;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-align: center;
+    }
+    .nav-list .dropdown a:hover{
+    text-decoration: none;
+    color: #069455;
+    }
+
+    .nav-list .dropdown a .caret{
+    padding-top: 10px;
+    }
+
+
+   .nav-list .dropdown .nav-dropdown{
+    border-radius: 0;
+    width:240px;
+    padding-bottom:0;
+      padding-top: 0;
+    }
+
+    .nav-list .dropdown .nav-dropdown li{
+    padding-top:8px;padding-bottom:8px;
+    display: inline !important;
+    float: left;
+    border-right: 1px solid #eee;
+    border-top:1px solid #eee; 
+    width:100%;
+    }
+
+    .nav-list .dropdown .nav-dropdown li:nth-child(2n){
+        background-color: #f9f6f6;
+    }
+
+    .nav-list .dropdown .nav-dropdown li:nth-child(3n){
+    border-right: 0;
+    }
+
+	.nav-list .dropdown .nav-dropdown .open-repair{
+	width: 100%;
+	border: none;
+	background-color:#e69906 ;
+	padding-top:5px;padding-bottom:5px;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair:hover{
+	background:#cc8807;
+	}
+
+    .nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair{
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffffff;
+	 font-family: "Roboto";
+    font-weight: 500;
+    border: 0;
+	 }
+
+    .nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair .fa{
+    	margin-left: 10px;
+    }
+
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:hover{
+	text-decoration: underline;
+	color: #e0e1e2;
+	cursor: pointer;
+	}
+	
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:focus,.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:active{
+	 outline: none !important;
+  box-shadow: none !important;
+	}
+   
+    .nav-list .dropdown .nav-dropdown li a img{
+   	display: block;
+   	margin-right: auto;
+   	margin-left: auto;
+    }
+
+    .nav-list .dropdown .nav-dropdown a p{
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #313433;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+     padding-left: 15px;padding-right: 15px;
+     margin-top:0;
+     text-align: left!important;
+     width: 100%;
+     margin-bottom:0;
+    }
+
+    .dropdown .nav-dropdown li a:hover{
+    color: #e69906;
+
+    }
+
+    .dropdown .nav-dropdown li a>p:hover{
+    color:#e69906;
+    }
+
+    .nav-list .dropdown .nav-dropdown li:hover{
+    background: #f5f6f8;
+    }
+
+    .nav-list .dropdown .nav-dropdown .nav-title a img {
+    display: block;
+    float: left;
+    padding-left: 10px;
+    }
+
+    .nav-list .dropdown .nav-dropdown .nav-title a p{
+    text-align: center !important;
+    padding-top:7px;
+    color: #313433;
+    font-weight: 700;
+    }
+  
+
+     /*contact us section*/
+
+    #contact-section{
+    background: url(../img/cover-white-limo.png) no-repeat center center fixed;
+    position: relative;
+    background-repeat: no-repeat;
+    padding:160px 0 10px;
+    background-color: #fff;
+    background-size: cover;
+    height: 900px;
+    }
+
+    .contact-us-form{
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    padding-left: 30px;padding-right: 30px;
+    padding-bottom: 30px;padding-top:15px;
+    width: 90%;
+    background-color: #fafafa;
+    box-shadow: 0 5px 20px 5px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(0deg, #251c6e 0%, #362a91 52%, #4638b3 100%);
+    position: relative;
+
+    }
+
+    .contact-us-form .contact-title{
+        color: #fff;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        font-weight: 600;
+        font-size: 21px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        font-family: "Roboto";
+        margin-top: 4px;
+        position: absolute;
+        top: -27px;
+        left: 25px;
+        /*background-image: -webkit-linear-gradient(0deg, #251c6e 0%, #362a91 52%, #4638b3 100%);*/
+        background-color:#f8791b;
+    }
+
+    .form-group .upload-label{
+        font-family: "Roboto";
+        color: #fff;
+        font-size: 13px;
+    }
+    .form-group .upload-btn {
+    
+       font-size: 15px;
+      
+
+    }
+
+
+
+    .contact-us-form  .send-message{
+    font-family: "Roboto";
+    font-weight:700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color:#f8791b;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 20px;
+        border-bottom-right-radius:20px;
+
+    }
+
+    .contact-us-form .contact-form-control{
+    font-size: 14px;
+    color: #ffffff;
+    background: #f7f8f9;
+    border: 1px solid #c6c8ca;
+    border-radius: 1px;
+    font-family: "Roboto";
+    padding-top: 8px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    width: 100%;
+    }
+    .form-control .placeholder{
+    color: #073664 !important;
+    }
+
+    .contact-form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #073664 !important;
+    font-family: "Roboto";
+    font-weight: 600;
+    opacity: 1; /* Firefox */
+    }
+
+    input, textarea{
+    color: #FFF;
+    }
+
+
+    .contact-us-form .select-title{
+    font-size: 16px;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 500;
+    }
+
+    .contact-us-form .select-reason{
+    height: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+
+
+    #contact-section .contact-informations{
+    display: block;
+    }
+
+    .contact-informations h2{
+    margin-top: 40px;
+    font-size: 38px;
+    font-family: 'Italiana', serif;
+    text-align:left;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing:1px;  
+    margin-bottom:0;
+    background-color: rgba(213, 181, 89, 0.8); 
+    padding-top:20px;padding-bottom: 20px;
+    padding-left: 40px;
+
+    
+    
+    }
+
+
+    
+    .contact-informations h2 span{
+    font-size: 25px;
+    font-family: 'Italiana', serif;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+  
+    
+    }
+
+    .contact-informations h6{
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 40px;
+    }
+
+    .contact-informations h6 .fa{
+    color: #fff;
+    margin-right: 13px;
+    }
+
+
+    .contact-informations  h3{
+    font-size: 22px;
+    font-family: "Roboto";
+    text-align: left;
+    color: #fff;
+    font-weight:400;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding-top:20px;padding-bottom: 20px;
+    padding-left: 40px;
+    width: 85%;
+    margin-bottom:45px;
+    letter-spacing: 2px;
+
+    }
+
+    .contact-informations h3 a .fa{
+        margin-left: 10px;margin-right: 10px;
+    }
+
+    .contact-informations h3 a{
+    font-size: 26px;
+    font-family: "Roboto";
+    text-align: center;
+    color: #fff;
+    font-weight:600;
+
+    letter-spacing: 2px;
+
+    }
+    
+
+
+
+
+
+  
+
+
+    /* HOME PAGE LAYOUT */
+
+
+
+    .info-left-side h2{
+        color: #242423;
+    
+    font-size: 38px;
+    text-align: left;
+    margin-top:5px;
+    margin-bottom: 45px;
+    font-family: 'Italiana', serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+
+    }
+
+    #info-description{
+        margin-bottom: 90px;
+        margin-top: 50px;
+    }
+
+    .info-left-side  h3 {
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #d8b25b;
+    font-size: 20px;
+    text-align: left;
+    margin-top:50px;
+    margin-bottom: 5px;
+    }
+
+    .info-left-side  h5{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #073664 !important;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 35px;
+    }
+
+    .info-left-side  h6{
+    font-family: "Roboto";
+    font-weight: 600;    
+    color: #242423;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 30px;
+    }
+
+
+    .info-left-side  h6{
+    font-family: "Roboto";
+    font-weight: 400;
+    color:#242423;
+    font-size: 16px;
+    text-align: left;
+    line-height: 27px;
+    }
+
+    .info-left-side  .btn-quote-sell{
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #d8b25b;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: left;
+    border-radius: 3px;
+    background: transparent;
+    
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 15x;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+
+    .info-left-side  .btn-quote-sell .fa{
+        margin-left: 15px;
+    }
+
+    .fea-list{
+    display: block;
+    width: 100%;
+    padding-left:10px;
+    margin-top:5px;
+    }
+
+    .fea-list li{
+    list-style-type: none;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-right: 40px;
+    /* box-shadow: 0 5px 15px 0 rgba(0,0,0,.1);*/
+    }
+    .fea-list li:last-child{
+    margin-right: 0;
+    }
+
+    .fea-list li p{
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #242423;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    }
+
+    .fea-list li img{
+    width: 50px;height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .sell-right-side img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+   
+
+
+
+    /* Banner call us now our services  */
+    
+    .banner-call{
+    padding-top:0;padding-bottom: 0;
+
+    background: url(../img/banner-image-1.jpg);
+    background-repeat:no-repeat;
+    position: relative;
+    height: 800px;
+    margin-top:130px;
+
+    }
+
+    .banner-call .call-left{
+    background-color: rgba(213, 181, 89, 0.8);
+    display: block;
+    float: left;
+    padding-left: 40px;padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+
+    }
+
+    .banner-call .call-left h4{
+    font-family: 'Italiana', serif;
+    font-weight: 600;
+    color: #fafafa;
+    font-size: 35px;
+    text-align:center;
+    margin-top: 25px;
+    margin-bottom: 55px;
+
+    }
+
+    .banner-call .call-left h5{
+    font-family: 'Roboto';
+    font-weight:400;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 0px 1px #000;
+    }
+
+    .banner-call .call-left a{
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #fff;
+    font-size: 27px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background: #181F27;
+
+    width: 320px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    }
+    .banner-call .call-left a .fa{
+    margin-right: 10px;
+    }
+
+    .banner-call .call-left h5 span a{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 35px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: 0px 1px #000;
+    border: 2px solid #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;padding-bottom: 5px;
+    border-radius: 5px;
+    margin-right: 10px;margin-left: 10px;
+
+    }
+
+    .banner-call .call-left h5 span a .fa {
+    margin-left: 10px;margin-right: 8px;
+    font-size: 30px;
+    color: #fff;
+    }
+
+   #back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 15px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: rgba(0,0,0,0.3);
+    color: #fafafa;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    }
+    #back-to-top:hover {
+    background: rgba(0,0,0,0.5);
+    }
+    #back-to-top.show {
+    opacity: 1;
+    }
+
+
+    /* OUR SERVICES SECTION */
+
+    .main-services{
+        background: url(../img/new-gradient.jpg) no-repeat;
+        position: relative;
+        background-repeat: no-repeat;
+        padding: 20px 0 10px;
+        background-color: #fff;
+        background-size: cover;
+        height:1080px;
+    }
+
+    .txt-services h3{
+        font-family: "Roboto";
+    font-weight: 400;
+    color: #d8b25b;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    }
+
+    .txt-services h2{
+        color: #242423;
+    font-size: 38px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 45px;
+    font-family: 'Italiana', serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    }
+
+    .txt-services p{
+        font-family: "Roboto";
+    font-weight: 400;
+    color: #242423;
+    font-size: 16px;
+    text-align: left;
+    line-height: 27px;
+    }
+
+    
+    .c-list{
+        display: block;
+        width: 100%;
+        padding-left:0;
+        margin-top: 65px;
+        }
+    
+        .c-list li{
+        list-style-type: none;
+    
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        display: inline-block;
+        margin-right:20;
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,.1);
+        width: 45%;
+        margin-top: 20px;
+        }
+        .c-list li:last-child{
+        margin-right: 0;
+        }
+    
+        .c-list li p{
+        font-family: "Roboto";
+        font-weight: 600;
+        color:#273a44;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        text-align: center;
+     
+        }
+
+        .c-list li a{
+            font-family: "Roboto";
+            font-weight: 600;
+            color:#273a44;
+            font-size: 15px;
+            margin-top: 20px;
+            margin-bottom: 5px;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 28px;
+         
+            }
+
+            .c-list li a .fa{
+                margin-left: 15px;
+            }
+    
+        .c-list li img{
+        width: 55px;height: 55px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: left;
+        }
+
+        .txt-image img{
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: 55px;
+        }
+
+        .txt-call {
+                font-family: "Roboto";
+            font-weight: 400;
+            color: #d8b25b;
+            font-size: 20px;
+            text-align: left;
+            margin-top: 100px;
+            margin-bottom: 5px;
+            border: 2px solid #d8b25b;
+            padding-top: 20px;padding-bottom: 20px;
+            padding-left: 20px;
+            border-radius: 10px;
+         
+
+        }
+
+        .txt-call  a{
+            font-family: "Roboto";
+            font-weight: 600;
+            color: #d8b25b;
+            font-size: 20px;
+            text-align: left;
+            margin-top: 50px;
+            margin-bottom: 5px;
+            text-decoration:none;
+        }
+
+        .txt-call  a:hover{
+            text-decoration: underline;
+        }
+
+        .txt-call  a .fa{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+    .call-us-button{
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background: #181F27;
+    width: 75%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    }
+
+    .call-us-button:hover{
+        color: #d8b25b;
+    }
+
+    .call-us-button img{
+        margin-right: 10px;
+        width: 100px;
+    }
+
+
+    /* our services top*/
+
+    .icons-header{
+       margin-top: -40px;
+       margin-bottom: 110px;
+
+    }
+    .ser-box{
+        background-color: #181F27;
+        border-radius: 10px;
+        padding-top: 20px;padding-bottom: 20px;
+        max-width: 30%;
+        margin-right: 20px;
+
+    }
+
+    .ser-box:last-child{
+        margin-right: 0;
+    }
+    .ser-box img{
+        display: block;
+        width: 40px;
+        margin-bottom: 15px;
+      
+        }
+    
+        .ser-box p{
+        font-family: "Roboto";
+        font-weight: 400;
+        color: #fff;
+        font-size: 13px;
+        text-align:left;
+        margin-top: 10px; 
+        margin-bottom: 0;
+        }
+    
+        .ser-box h6{
+            font-family: 'Italiana', serif;
+            font-weight: 600;
+            color: #d8b25b;
+            font-size: 16px;
+            letter-spacing: 1px;
+            text-align:left;
+        
+        }
+        
+    /* commercial SECTION */
+
+
+    #commercial-section{
+    padding-top: 100px;
+    padding-bottom:100px;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    }
+
+    
+
+    #commercial-section h2{
+        color: #242423;
+        font-size: 38px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 45px;
+        font-family: 'Italiana', serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    #commercial-section h3{
+        font-family: "Roboto";
+        font-weight: 400;
+        color: #d8b25b;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    
+    }
+
+    #commercial-section p{
+        font-family: "Roboto";
+        font-weight: 400;
+        color: #242423;
+        font-size: 16px;
+        text-align: left;
+        line-height: 27px;
+    }
+
+    #commercial-section .check-services{
+        font-family: "Roboto";
+        font-weight: 500;
+        color: #d8b25b;
+        font-size: 16px;
+        letter-spacing: 1px;
+      
+        border-radius: 3px;
+        background: transparent;
+       
+        width: 240px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 15x;
+        margin-top: 45px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    
+    }
+
+    #commercial-section .check-services .fa{
+        margin-left: 20px;
+    }
+
+
+
+    .fleet-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+
+    
+    .call-center {
+        font-family: "Roboto";
+        font-weight: 400;
+        color: #d8b25b;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 5px;
+      
+        padding-top: 20px;padding-bottom: 20px;
+        padding-left: 20px;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+
+        }
+
+        .call-center  a{
+        font-family: "Roboto";
+        font-weight: 600;
+        color: #d8b25b;
+        font-size: 20px;
+        text-align:center;
+        margin-top: 50px;
+        margin-bottom: 5px;
+        text-decoration:none;
+        }
+
+        .call-number  a:hover{
+        text-decoration: underline;
+        }
+
+        .call-center  a .fa{
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+
+
+     /* ANTISLIP SECTION */
+
+
+     #section-antislip{
+        padding-top: 80px;
+        padding-bottom:80px;
+         background-color: #181F27;
+       
+        }
+    
+        #custCarousel{
+        margin-bottom: 30px;
+        }
+    
+        .carousel-inner img {
+        width: 100%;
+        height: 100%;
+        }
+    
+        #custCarousel .carousel-indicators {
+        position: static;
+        margin-top: 20px;
+        }
+    
+        #custCarousel .carousel-indicators>li {
+        width: 100px;
+        }
+    
+        #custCarousel .carousel-indicators li img {
+        display: block;
+        opacity: 0.5;
+        }
+    
+        #custCarousel .carousel-indicators li.active img {
+        opacity: 1;
+        }
+    
+        #custCarousel .carousel-indicators li:hover img {
+        opacity: 0.75;
+        }
+    
+        .carousel-item img {
+        width: 100%;
+        }
+    
+        .antislip-info{
+        padding: 30px;
+        }
+    
+        .antislip-info h2{
+            color: #fff;
+            font-size: 38px;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 45px;
+            font-family: 'Italiana', serif;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+    
+        .antislip-info h3{
+            font-family: "Roboto";
+            font-weight: 400;
+            color: #d8b25b;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            }
+    
+        .antislip-info p{
+            font-family: "Roboto";
+            font-weight: 400;
+            color: #fff;
+            font-size: 16px;
+            text-align: left;
+            line-height: 27px;
+        }
+        
+        .antislip-info h6{
+            font-family: "Roboto";
+            font-weight: 600;
+            color: #fff;
+            font-size: 17px;
+            text-align: left;
+            padding-left: 40px;
+            }
+        
+            .antislip-info h6 .fa{
+            color: #fff;
+            margin-right: 13px;
+            }
+        
+            .call-number {
+            font-family: "Roboto";
+            font-weight: 400;
+            color: #d8b25b;
+            font-size: 18px;
+            text-align: center;
+            margin-top: 70px;
+            margin-bottom: 5px;
+            border: 2px solid #d8b25b;
+            padding-top: 20px;padding-bottom: 20px;
+            padding-left: 20px;
+            border-radius: 10px;
+
+
+            }
+
+            .call-number  a{
+            font-family: "Roboto";
+            font-weight: 600;
+            color: #d8b25b;
+            font-size: 20px;
+            text-align:center;
+            margin-top: 50px;
+            margin-bottom: 5px;
+            text-decoration:none;
+            }
+
+            .call-number  a:hover{
+            text-decoration: underline;
+            }
+
+            .call-number  a .fa{
+            margin-left: 10px;
+            margin-right: 10px;
+            }
+    
+
+   
+    
+         .blog .carousel-indicators {
+        left: 0;
+        top: auto;
+        bottom:-45px;
+    
+        }
+    
+        /* The colour of the indicators */
+        .blog .carousel-indicators li {
+        background: #a3a3a3;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        }
+    
+        .blog .carousel-indicators .active {
+        background: #d8b25b;
+        }
+    
+        .blog  .carousel-item img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          position: relative;
+          border-radius: 20px;
+        } 
+
+        .blog .carousel-inner {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            margin-top: 75px;
+        }
+    
+        .blog  .carousel-item .txt-short{
+            position: absolute;
+            bottom: 5px;
+            right: 25px;
+            font-size: 16px;
+            font-family: "Open Sans";
+            font-weight: 400;
+            padding-left: 25px;padding-right: 25px;
+            padding-top: 4px;padding-bottom: 4px;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+    
+        
+        .blog  .carousel-item .txt-short a{
+         
+            font-size: 16px;
+            font-family: "Open Sans";
+            font-weight: 600;
+            
+            color: #fff;
+          
+        }
+
+
+        
+    /* Banner call us now our services  */
+    
+    .banner-home{
+        padding-top:0;padding-bottom: 0;
+    
+        background: url(../img/home-banner-women.jpg);
+        background-repeat:no-repeat;
+        position: relative;
+        height: 800px;
+        margin-top:130px;
+        background-position: center;
+    
+        }
+    
+        .banner-home .call-inner{
+        background-color: rgba(213, 181, 89, 0.8);
+        display: block;
+        float: left;
+        padding-left: 40px;padding-right: 40px;
+        padding-top: 50px;
+        padding-bottom: 70px;
+    
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    
+    
+        }
+    
+        .banner-home .call-inner h4{
+        font-family: 'Italiana', serif;
+        font-weight: 600;
+        color: #fafafa;
+        font-size: 35px;
+        text-align:center;
+        margin-top: 25px;
+        margin-bottom: 55px;
+    
+        }
+    
+        .banner-home .call-inner h5{
+        font-family: 'Roboto';
+        font-weight:400;
+        color: #ffffff;
+        font-size: 18px;
+        margin-top: 10px;
+        text-align: center;
+        text-shadow: 0px 1px #000;
+        }
+    
+        .banner-home .call-inner a{
+        font-family: "Roboto";
+        font-weight: 600;
+        color: #fff;
+        font-size: 27px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border-radius: 25px;
+        background: #181F27;
+    
+        width: 320px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    
+        margin-top: 55px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        }
+        .banner-home .call-inner a .fa{
+        margin-right: 10px;
+        }
+    
+        .banner-home .call-inner h5 span a{
+        font-family: 'Open Sans';
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 35px;
+        margin-top: 10px;
+        letter-spacing: 1px;
+        text-align: center;
+        text-shadow: 0px 1px #000;
+        border: 2px solid #fff;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;padding-bottom: 5px;
+        border-radius: 5px;
+        margin-right: 10px;margin-left: 10px;
+    
+        }
+    
+        .banner-home .call-inner h5 span a .fa {
+        margin-left: 10px;margin-right: 8px;
+        font-size: 30px;
+        color: #fff;
+        }
+
+
+    /* --------------- OUR SERVICES -------------------  */ 
+        
+        .banner-cover-top{
+        padding-bottom:70px;
+        margin-top:79px;
+       
+        background: url(../img/our-services-banner.jpg) no-repeat center center fixed;
+        width: 100%;
+        background-size: auto;
+       
+        position: relative;
+        height:600px;
+        }
+
+        .banner-cover-top .text-headline h2 span{
+            font-family: 'Italiana', serif;
+            font-weight: 600;
+            letter-spacing: 1px;
+        color: #fff;
+        font-size: 35px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    
+
+        }
+
+
+        .banner-cover-top .text-headline h6{
+        font-weight: 400;
+        color: #fff;
+        font-size: 17px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-bottom: 0;
+        font-family: 'Roboto', serif;
+
+
+        }
+
+        .banner-cover-top .text-headline h6 .line-3 {
+        border: 1.5px solid #84bc53;
+        display: block;
+        width: 50px;
+        float: left;
+        vertical-align: -25px;
+        margin-top: 10px;
+        margin-right: 20px;
+        }
+
+
+        .banner-cover-top .text-headline{
+        background-color:transparent;
+        margin-top: 40px;
+        padding-top: 15px;
+        position: absolute;
+        left: 50px;
+        top:30%;
+        }
+
+
+    .inner-services{
+        background: url(../img/new-gradient.jpg) no-repeat;
+        position: relative;
+        background-repeat: no-repeat;
+        padding: 20px 0 10px;
+        background-color: #fff;
+        background-size: cover;
+        height: 1080px;
+        margin-bottom: 100px;
+    }
+
+    .services-list{
+        display: block;
+        width: 100%;
+        padding-left:0;
+        margin-top: 15px;
+        }
+    
+        .services-list li{
+        list-style-type: none;
+    
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: inline-block;
+        margin-right:20px;
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,.1);
+        width:30%;
+        margin-top: 25px;
+        background-color: #fff;
+        }
+        .services-list li:last-child{
+        margin-right: 0;
+        }
+    
+        .services-list li p{
+        font-family: "Roboto";
+        font-weight: 400;
+        color:#273a44;
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 5px;
+        text-align: left;
+
+        }
+
+        .services-list li h6{
+        font-family: "Roboto";
+        font-weight: 600;
+        color:#273a44;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+
+        }
+
+        .services-list li img{
+        width: 55px;height: 55px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        }
+
+
+
+        
+    .why-list{
+        display: block;
+        width: 100%;
+        padding-left:10px;
+        margin-top:45px;
+        }
+    
+        .why-list li{
+        list-style-type: none;
+        background-color: #181F27;
+        padding-left: 20px;padding-top: 15px;padding-bottom: 15px;
+        width: 22%;
+        float: left;
+        display:block;
+        margin-right: 30px;
+        /* box-shadow: 0 5px 15px 0 rgba(0,0,0,.1);*/
+        border-radius: 10px;
+        }
+        .why-list li:last-child{
+        margin-right: 0;
+        }
+    
+        .why-list li p{
+        font-family: "Roboto";
+        font-weight: 500;
+        color: #d8b25b;
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: left;
+        padding-top: 6px;
+       
+        }
+    
+        .why-list li img{
+        width: 50px;height: 50px;
+        display: block;
+        float: left;
+        margin-right: 20px;
+        }
+
+	/* --------------- FOOTER STYLE -------------------  */ 
+
+
+	  footer{
+    background:#0a0f13;
+    padding-top:70px;
+    padding-bottom:0;
+    }
+
+    footer .logo-left {
+    display: block;
+    float: left;
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+    margin-top: 5px;
+    }
+
+     footer .text-rights{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #7b8084;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-left: 10px;
+    margin-top:20px;
+    border-top: 1px solid #1d2428;
+    padding-top: 10px;
+    letter-spacing: 1px;
+     }
+
+     /* Footer contact inforamtion on left side */
+
+	.logo-left li {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	width:90%;
+	}
+
+	.logo-left li a{
+	font-family: "Open Sans";
+    font-weight: 400;
+    color: #dee1e3;
+    font-size: 12px;
+    text-align: left;
+    letter-spacing: 1px;
+    text-decoration: none;
+	}
+	.logo-left li a .fa{
+	margin-right: 8px;
+	 color: #dee1e3;
+	 font-size: 7px;
+	 vertical-align: 2px;
+	}
+
+	.logo-left li a:hover{
+	cursor:pointer;
+	text-decoration: underline;
+	color: #f2bd25;
+	}
+
+    .logo-left li h5{
+            font-family: "Roboto";
+    font-weight: 600;
+    color: #e69906;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 0;
+    }
+
+    .logo-left li p{
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #ffffff;
+ 
+    font-size: 16px;
+    text-align:left;
+    letter-spacing: 1px;
+    }
+    
+
+
+	/* Footer Social networks icons   */
+
+    .call-footer{
+    display: block;
+    float: left;
+    list-style-type: none;
+    width: 100%;
+
+    }
+
+    .call-footer  h3{
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #d8b25b;
+    font-size: 14px;
+    text-align: center; 
+    padding-bottom:0;
+    width:100%;
+    margin-bottom: 20px;
+    }
+
+     .call-footer a{
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center; 
+        margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+    }
+    .call-footer a span img{
+     
+        margin-right: 20px;
+        margin-left: -20px;
+        margin-top: -4px;
+    }
+     .call-footer a span{
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center; 
+    letter-spacing: 1px;
+    border: 3px solid #fff;
+    padding-top: 10px;padding-bottom: 10px;
+    padding-right: 30px;
+    border-radius: 30px;
+   
+    }
+
+    .call-footer a .fa{
+        margin-right: 10px;
+    }
+
+
+    
+    .sub-footer{
+    display: block;
+    width: 100%;
+    padding-top:8px;padding-bottom:8px;
+        border-top: 1px solid #1c2934;
+
+    margin-top:25px;
+    }
+
+    .sub-footer .copy {
+   font-family: "Roboto";
+    font-weight: 400;
+    color: #b7b6b6 !important;
+    text-align: center;
+    display: block;
+    font-size: 10px;
+    float: right;
+    margin-top: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    }
+
+    .sub-footer .copy a{
+        color: #b7b6b6 !important;
+    }
+
+
+    /* HOme Page banner section before after about  */
+
+    .banner-left-1{
+    width: 100%;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    }
+
+    .banner-left-1 .img-fluid{
+   
+    }
+
+    .banner-right-3{
+     width: 100%;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    }   
+    
+    .banner-center-2 .txt-center{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    }
+
+
+    .banner-center-2 .txt-center h2{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #313433;
+    font-size: 26px;
+    margin-bottom:20px;
+    text-align: left;
+    }
+
+    .banner-center-2 .txt-center p{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #313433;
+    font-size: 14px;
+    text-align:left;
+    }
+
+    .banner-center-2 .button-go-services{
+       display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width:190px;
+    font-family: "Roboto";
+    font-weight:600;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color:#039BE5;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 1px solid #039BE5;
+    border-radius: 2px;
+    margin-top: 35px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    }
+
+  
+
+    /* banner*/
+
+
+      .demo-box{
+    background-color:#253f59;
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background: url(../img/orange-cover.png);
+    background-repeat: repeat-x;
+    }
+
+    .demo-box .box-content{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    .demo-box .box-content h3{
+    font-family: "Roboto";
+    font-weight: 600;
+    color:#fff;
+    font-size: 27px;
+    text-align: center;
+    padding-bottom: 5px;
+    }
+
+    .demo-box .box-content p{
+       font-family: "Roboto";
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    }
+
+
+    .demo-box .box-content .border-line-5{
+      border-bottom: 1px solid #fafafa;
+    width: 20%;
+    margin-bottom: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+    }
+
+    .box-content .btn-signup-5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+      font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #203c53;
+    padding-top: 13px;padding-bottom: 13px;
+    border:0;border-radius: 0;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    }
+
+    .box-content .btn-signup-5:hover{
+        cursor: pointer;
+        /*background-color: #cc9d19;*/
+        color: #ffffff;
+    }
+
+
+
+    
+    /* --------------- OUR SERVICES -------------------  */ 
+        
+    .about-cover-top{
+        padding-bottom:70px;
+        margin-top:79px;
+       
+        background: url(../img/about-us-cover-2.jpg) no-repeat center center fixed;
+        width: 100%;
+        
+        background-size: auto;
+       
+        position: relative;
+        height:600px;
+        }
+
+        .about-cover-top .text-headline h2 span{
+            font-family: 'Italiana', serif;
+            font-weight: 600;
+            letter-spacing: 1px;
+        color: #fff;
+        font-size: 35px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    
+
+        }
+
+
+        .about-cover-top .text-headline h6{
+        font-weight: 400;
+        color: #fff;
+        font-size: 17px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-bottom: 0;
+        font-family: 'Roboto', serif;
+
+
+        }
+
+        .about-cover-top .text-headline h6 .line-3 {
+        border: 1.5px solid #84bc53;
+        display: block;
+        width: 50px;
+        float: left;
+        vertical-align: -25px;
+        margin-top: 10px;
+        margin-right: 20px;
+        }
+
+
+        .about-cover-top .text-headline{
+        background-color:transparent;
+        margin-top: 40px;
+        padding-top: 15px;
+        position: absolute;
+        left: 50px;
+        top:30%;
+        }
+
+    .gallery{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        display: block;
+        position: relative;
+        background-color: #181F27;
+      
+
+    }
+
+    .gallery h2{
+        color: #fff;
+        font-size: 38px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 45px;
+        font-family: 'Italiana', serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+        width: 100%;
+    }
+
+    .gallery h3{
+        font-family: "Roboto";
+        font-weight: 400;
+        color: #d8b25b;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+        }
+    
+    .g-box img{
+        border-radius: 15px;
+        margin-bottom: 25px;
+        border: 4px solid #d8b25b;
+    }
+
+
+        .gall-call {
+        font-family: "Roboto";
+        font-weight: 400;
+        color: #d8b25b;
+        font-size: 20px;
+        text-align: left;
+        margin-top: 70px;
+        margin-bottom: 5px;
+        border: 2px solid #d8b25b;
+        padding-top: 20px;padding-bottom: 20px;
+        padding-left: 20px;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 40px;padding-right: 40px;
+    
+        
+
+
+        }
+
+        .gall-call  a{
+        font-family: "Roboto";
+        font-weight: 600;
+        color: #d8b25b;
+        font-size: 20px;
+        text-align: left;
+        margin-top: 50px;
+        margin-bottom: 5px;
+        text-decoration:none;
+        }
+
+        .gall-call  a:hover{
+        text-decoration: underline;
+        }
+
+        .gall-call  a .fa{
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+
+
+     /* -------------------  Limousine Services Page -------------------  */
+        
+
+        .fort-banner{
+        padding-bottom:70px;
+        margin-top:79px;
+
+        background: url(../img/fort-cover-banner.png) no-repeat center center fixed;
+        width: 100%;
+        background-size: cover;
+
+        position: relative;
+        height:690px;
+        }
+
+        .fort-banner .txt-fort h2 span{
+        font-family: 'Italiana', serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #fff;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        width: 100%;
+
+
+        }
+
+        .fort-banner .txt-fort img{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 15px;
+        }
+
+        .fort-banner .txt-fort h2{
+            font-family: 'Italiana', serif;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #fff;
+            font-size: 40px;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom:5px;
+            width: 100%;
+    
+    
+            }
+
+
+        .fort-banner .txt-fort h6{
+        font-weight: 400;
+        color: #fff;
+        font-size: 19px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-bottom: 0;
+        font-family: 'Roboto', serif;
+
+
+        }
+
+        .fort-banner .txt-fort .line-3 {
+        border: 1.5px solid #84bc53;
+        display: block;
+        width: 50px;
+        float: left;
+        vertical-align: -25px;
+        margin-top: 10px;
+        margin-right: 20px;
+        }
+
+
+        .fort-banner .txt-fort{
+        background-color:transparent;
+        margin-top: 100px;
+        padding-top: 15px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+
+        .mini-call {
+            font-family: "Roboto";
+            font-weight: 400;
+            color: #d8b25b;
+            font-size: 18px;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 5px;
+            border: 2px solid #d8b25b;
+            padding-top: 30px;padding-bottom: 30px;
+            padding-left: 45px;padding-right: 45px;
+            border-radius: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+
+
+            }
+
+            .mini-call  a{
+            font-family: "Roboto";
+            font-weight: 600;
+            color: #d8b25b;
+            font-size: 23px;
+            text-align:center;
+            margin-top: 50px;
+            margin-bottom: 5px;
+            text-decoration:none;
+            }
+
+            .mini-call a:hover{
+            text-decoration: underline;
+            }
+
+            .mini-call  a .fa{
+            margin-left: 10px;
+            margin-right: 10px;
+            }
+
+            .services-button{
+                font-family: "Roboto";
+                font-weight: 500;
+                color: #d8b25b;
+                font-size: 14px;
+                letter-spacing: 1px;
+               
+                background: transparent;
+                border: 2px solid #d8b25b;
+                width: 220px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                margin-left: 25px;
+             
+                border-radius: 10px;
+                text-align: center;
+                display: block;
+                height: 80px;
+              float: left;
+              margin-top: 30px;
+            }
+
+
+            .services-button .fa {
+                margin-left: 15px;
+            }
+
+     
+
+
+    /* -------------------  RESPOSNIVE DESGIN -------------------  */
+    
+      @media (max-width: 1079px) {
+
+          .main-navigation .nav-list .nav-link{
+            font-size: 11px;
+          }
+
+          #buy-txt-section .repair-content h2{
+            font-size: 24px;
+          }
+
+          .banner-call .call-left h4{
+            font-size: 18px;
+          }
+
+          .banner-call .call-left h5{
+            font-size: 26px;
+          }
+
+              .banner-call .call-left h5 span {
+            font-family: 'Open Sans';
+            font-weight: 700;
+            color: #ffffff;
+            font-size: 26px;
+            margin-top: 10px;
+            letter-spacing: 1px;
+            text-align: center;
+            text-shadow: 0px 1px #000;
+            border: 2px solid #fff;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 5px;
+            margin-right: 10px;
+            margin-left: 10px;
+            }
+
+            .demo-box .box-content h3{
+                font-size: 24px;
+            }
+
+            .info-left-side h2{
+                font-size: 26px;
+            }
+
+
+      }
+        
+
+
+
+
+
+	/* Responsive Design Changes fixes CSS Tablet  */
+	
+
+    @media (max-width: 991px) {
+        
+       
+
+        #top-section .tx-box-1 h2{
+        font-size: 22px;
+        }
+
+        #top-section .tx-box-1 h4{
+        font-size: 17px;
+        }
+
+        .catagories-home li h6{
+        font-size: 13px;
+        }
+
+        .catagories-home li img{
+        width: 110px;height: 110px;
+        }
+
+        .banner-call .call-left h4{
+        font-size: 17px;
+        }
+
+        .banner-call .call-left h5{
+        font-size: 24px;
+        }
+
+        .banner-call .call-left h5 span{
+        font-size: 24px;
+        }
+
+        .info-left-side h2{
+            font-size: 22px;
+        }
+
+        .info-left-side h3{
+            font-size: 19px;
+        }
+
+        .sell-right-side img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        display: none;
+
+        }
+
+        .info-left-side{
+            border-top: 2px solid #eee;
+            padding-top: 20px;
+        }
+
+        .process-steps {
+        margin-bottom: 10px;
+        max-width: 230px;
+        background-color: #fafafa;
+        margin-right: 8px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 40px;
+        position: relative;
+        }
+
+        .process-steps h6{
+            font-size: 13px;
+        }
+
+        .process-steps p{
+            font-size: 11px;
+        }
+
+        .banner-cover-top .text-headline{
+            margin-top: 15px;
+        }
+
+        .banner-cover-top .text-headline h2 span{
+            font-size: 26px;
+        }
+
+        .banner-cover-top .text-headline h2{
+            font-size: 19px;
+        }
+
+
+        .gallery-content .pic-1{
+            width: 55%;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        #we-buy-section .tx-box h2{
+            font-size: 21px;
+        }
+
+        #we-buy-section .tx-box h4{
+            font-size: 17px;
+        }
+
+        #we-buy-section .title-box h2{
+            font-size: 19px;
+            text-align: center;
+        }
+
+        #we-buy-section .title-box p{
+            font-size: 13px;
+        }
+
+        .product-list li{
+            width: 25%;
+        }
+
+        .product-list li h6{
+            font-size: 14px;
+        }
+
+        #section-how-it-work .box-text-5 h2{
+            font-size: 24px;
+        }
+
+        .inner-how-it-work-1 .first-side-work .headline-app{
+            font-size: 15px;
+        }
+
+        .inner-how-it-work-1 .first-side-work .text-description{
+            font-size: 14px;
+        }
+
+        #buy-txt-section .repair-content h2{
+            font-size: 25px;
+        }
+
+        .demo-box .box-content p{
+            font-size: 16px;
+        }
+
+        .section-how-it-work .box-text-6 h2{
+            font-size: 24px;
+        }
+
+        #location-hour .map-info .t-1{
+            font-size: 15px;
+        }
+
+        #location-hour .map-info a span{
+            font-size: 32px;
+        }
+
+        .service-info .open-hours li span{
+            font-size: 11px;
+        }
+
+        .service-info .open-hours li p{
+            font-size: 12px;
+        }
+
+
+    }  /* end  max widht 991px  */
+	
+
+   
+
+    @media (max-width: 767.98px) {
+
+
+
+        .process-steps{
+        max-width: 100%;
+        margin-bottom: 10px;
+        }
+
+        .process-steps img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 20%;
+        }
+
+        #top-section .tx-box-1 h2{
+        font-size: 19px;
+        }
+
+        #top-section .tx-box-1 h4{
+            font-size: 14px;
+        }
+        .catagories-home li{
+            width: 30%;
+        }
+
+        .banner-call .call-left h4 {
+        font-size: 13px;
+        }
+
+        .banner-call .call-left h5 {
+        font-size: 17px;
+        }
+
+        .banner-call .call-left h5 span {
+        font-size: 20px;
+        }
+
+        .info-left-side p{
+            font-size: 13px;
+        }
+
+        .info-left-side h2 {
+        font-size: 20px;
+        }
+
+        #location-hour .map-info{
+            height: 225px;
+            margin-bottom: 30px;
+        }
+
+        #buy-txt-section .repair-content p{
+            font-size: 13px;
+        }
+
+        .section-how-it-work .box-text-6 h2 {
+        font-size: 21px;
+        }
+
+        .section-how-it-work .how-steps p{
+            font-size: 13px;
+        }
+
+        .inner-how-it-work-1 .first-side-work .text-description {
+        font-size: 13px;
+        }
+
+        #buy-txt-section .repair-content h2 {
+        font-size: 23px;
+        }
+
+        .logo-left li a img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .demo-box .box-content h3{
+            font-size: 23px;
+        }
+
+        .product-list li h6 {
+        font-size: 12px;
+        }
+
+        .product-list li img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85px;
+        height: 85px;
+        }
+
+        #we-buy-section .tx-box h4 {
+        font-size: 15px;
+        }
+
+        #we-buy-section .title-box h2 {
+        font-size: 17px;
+        text-align: center;
+        }
+
+
+
+	}   /* /End responsive Tablet size */
+
+
+
+
+	/* Responsive Design Changes adds CSS Mobile phones*/
+
+	
+	@media (max-width: 575.98px) { 
+	
+
+        #home-section .text-area h2 span{
+            font-size: 24px;
+        }
+
+        #top-section .tx-box-1 h4 {
+        font-size: 12px;
+        }
+
+        .catagories-home li {
+        width: 45%;
+        }
+
+        .banner-call .call-left h5 {
+        font-size: 10px;
+        }
+
+        .info-left-side h2 {
+        font-size: 17px;
+        }
+
+        .info-left-side h3 {
+        font-size: 15px;
+        }
+
+        .info-left-side h6{
+        font-size: 14px;
+        }
+
+        .banner-call .call-left h5 span {
+        font-family: 'Open Sans';
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 16px;
+        margin-top: 10px;
+        letter-spacing: 1px;
+        text-align: center;
+        text-shadow: 0px 1px #000;
+        border:none;
+        padding-left:3px;
+        padding-right:3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+        margin-right:0;
+        margin-left:0;
+        }
+
+               .banner-call .call-left h5 span a {
+            font-family: 'Open Sans';
+            font-weight: 700;
+            color: #ffffff;
+            font-size: 16px;
+            margin-top: 10px;
+            letter-spacing: 1px;
+            text-align: center;
+            text-shadow: 0px 1px #000;
+            border: 2px solid #fff;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 5px;
+            margin-right:5px;
+            margin-left: 5px;
+        }
+
+        .banner-call .call-left h5 span a .fa {
+    margin-left: 10px;
+    margin-right: 8px;
+    font-size: 18px;
+    color: #fff;
+}
+
+        .banner-call .call-left h5 span .fa {
+        margin-left: 4px;
+        margin-right: 7px;
+        font-size: 20px;
+        color: #fff;
+        margin-top: 2px;
+        }
+
+        .banner-cover-top .text-headline h2 span {
+        font-size: 22px;
+        }
+
+        .banner-cover-top .text-headline h2 {
+        font-size: 17px;
+        }
+
+        #buy-txt-section .repair-content h2 {
+        font-size: 18px;
+        }
+
+        #we-buy-section .tx-box h2 {
+        font-size: 18px;
+        }
+
+        #we-buy-section .tx-box h4 {
+        font-size: 14px;
+        }
+
+        .product-list li img{
+            width: 65px;
+            height: 65px;
+        }
+
+        .product-list li {
+        width: 33%;
+        }
+
+        .title-box h2 img {
+        margin-right: 10px;
+        margin-bottom: 5px;
+        width: 15%;
+        }
+
+        .section-how-it-work .box-text-6 h2 {
+        font-size: 19px;
+        }
+
+        .section-how-it-work .how-steps .headline{
+        font-size: 14px;
+        }
+
+        .demo-box{
+        background-size: cover;
+        }
+
+        .banner-call .call-left h5 span{
+        font-size: 14px;
+        }
+
+        .demo-box .box-content h3{
+            font-size: 19px;
+        }
+
+
+	} /* end mobile responsive media querie*/
+
